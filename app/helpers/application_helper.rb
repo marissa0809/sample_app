@@ -5,7 +5,7 @@ module ApplicationHelper
       base_title
     else
       "#{page_title} | #{base_title}"
- 
+    
   def bootstrap_class_for(flash_type)
     case flash_type
       when :success
